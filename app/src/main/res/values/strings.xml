@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">gamechat</string>
+    <string name="todo">todo</string>
+    <string name="todo2">todo2</string>
+    <string name="selamat_datang">Selamat Datang</string>
+    <string name="apapun_jawaban_yang_kamu_pilih">Apapun jawaban yang kamu pilih</string>
+    <string name="akan_bergantung_pada_akhir_cerita">akan bergantung pada akhir cerita</string>
 </resources>
