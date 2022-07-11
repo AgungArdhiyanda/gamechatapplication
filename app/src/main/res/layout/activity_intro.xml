@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/backgroundopening"
-    tools:context=".Opening">
+    tools:context=".Intro">
 
     <ImageView
         android:id="@+id/app_logo"
@@ -13,7 +13,7 @@
         android:layout_height="295dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="120dp"
-        android:contentDescription="todo"
+        android:contentDescription="@string/todo"
         android:src="@drawable/opening" />
 
     <TextView
@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="21dp"
         android:gravity="center"
-        android:text="selamat_datang"
+        android:text="@string/selamat_datang"
         android:textSize="28sp"
         android:textStyle = "bold|italic"
         android:textColor="@color/white"
@@ -33,7 +33,7 @@
         android:layout_below="@id/app_logo"
         android:layout_marginTop="57dp"
         android:gravity="center"
-        android:text="apapun_jawaban_yang_kamu_pilih"
+        android:text="@string/apapun_jawaban_yang_kamu_pilih"
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold" />
@@ -44,7 +44,7 @@
         android:layout_below="@id/app_logo"
         android:layout_marginTop="82dp"
         android:gravity="center"
-        android:text="akan_bergantung_pada_akhir_cerita"
+        android:text="@string/akan_bergantung_pada_akhir_cerita"
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold" />
@@ -55,7 +55,7 @@
         android:layout_height="70dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="600dp"
-        android:contentDescription="todo2"
+        android:contentDescription="@string/todo2"
         android:scaleType="fitCenter"
         android:src="@drawable/nextButton"
         android:background="@null"
@@ -63,4 +63,3 @@
 
 
 </RelativeLayout>
-
