@@ -2,17 +2,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backgroundopening"
+    android:background="@drawable/background"
     tools:context=".MainActivity">
 
-    <ImageView
+    <com.mikhaellopez.circularimageview.CircularImageView
         android:id="@+id/app_logo"
-        android:layout_width="297dp"
-        android:layout_height="295dp"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="160dp"
         android:contentDescription="@string/todo"
         android:src="@drawable/opening" />
+
 
     <TextView
         android:layout_width="match_parent"
