@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
             button.animate().apply{
                 duration = 1000
                 rotationX(360f)
-                
+
             }//GantiActivity
             val intent = Intent(this,Mainpage::class.java)
             startActivity(intent)

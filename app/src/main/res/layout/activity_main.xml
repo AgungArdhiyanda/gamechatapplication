@@ -7,8 +7,8 @@
 
     <com.mikhaellopez.circularimageview.CircularImageView
         android:id="@+id/app_logo"
-        android:layout_width="230dp"
-        android:layout_height="230dp"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="160dp"
         android:contentDescription="@string/todo"
@@ -20,11 +20,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="70dp"
         android:layout_marginBottom="21dp"
+        android:fontFamily="@font/story"
         android:gravity="center"
         android:text="@string/selamat_datang"
+        android:alpha="0.7"
         android:textColor="@color/white"
         android:textSize="40sp"
-        android:textStyle="bold|italic" />
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="match_parent"
@@ -33,8 +35,10 @@
         android:layout_marginTop="57dp"
         android:gravity="center"
         android:text="@string/apapun_jawaban_yang_kamu_pilih"
+        android:fontFamily="serif"
         android:textColor="@color/white"
-        android:textSize="20sp"
+        android:textSize="18sp"
+        android:alpha="0.8"
         android:textStyle="bold|italic" />
 
     <TextView
@@ -44,8 +48,10 @@
         android:layout_marginTop="82dp"
         android:gravity="center"
         android:text="@string/akan_bergantung_pada_akhir_cerita"
+        android:fontFamily="serif"
         android:textColor="@color/white"
-        android:textSize="20sp"
+        android:textSize="17sp"
+        android:alpha="0.8"
         android:textStyle="bold|italic" />
 
     <ImageButton
