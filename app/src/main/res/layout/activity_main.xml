@@ -1,18 +1,64 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backgroundopening"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="297dp"
+        android:layout_height="295dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/opening" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="21dp"
+        android:gravity="center"
+        android:text="@string/selamat_datang"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_logo"
+        android:layout_marginTop="57dp"
+        android:gravity="center"
+        android:text="@string/apapun_jawaban_yang_kamu_pilih"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_logo"
+        android:layout_marginTop="82dp"
+        android:gravity="center"
+        android:text="@string/akan_bergantung_pada_akhir_cerita"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+    <ImageButton
+    android:id="@+id/addBtn"
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    android:layout_marginStart="300dp"
+    android:layout_marginTop="610dp"
+    android:background="@null"
+    android:contentDescription="@string/todo2"
+    android:scaleType="fitCenter"
+    android:src="@drawable/nextbutton"
+    tools:ignore="DuplicateSpeakableTextCheck" />
+
+
+
+</RelativeLayout>
+
