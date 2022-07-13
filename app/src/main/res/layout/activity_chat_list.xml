@@ -29,15 +29,17 @@
         android:text="Busy"
         android:textStyle="bold"
         android:layout_marginLeft="132dp"
-        android:layout_marginTop="165dp"/>
+        android:layout_marginTop="155dp"/>
 
     <Button
-        android:layout_width="120dp"
+        android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="94dp"
+        android:layout_marginTop="105dp"
         android:background="?android:attr/selectableItemBackground"
         android:text="Jessica"
+        android:gravity="left"
+        android:paddingLeft="120dp"
+        android:paddingTop="20dp"
         android:textColor="@color/black"
         android:textSize="18sp"
         android:textStyle="bold" />
