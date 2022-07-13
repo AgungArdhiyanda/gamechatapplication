@@ -14,7 +14,7 @@
         android:theme="@style/Theme.Gamechat"
         tools:targetApi="31">
         <activity
-            android:name=".Mainpage"
+            android:name=".ChatList"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
