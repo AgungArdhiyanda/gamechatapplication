@@ -18,14 +18,14 @@ class MainActivity : AppCompatActivity() {
 
         button.setOnClickListener{
 
-            //AnimasiTombol
+            // Animasi Tombol
             button.animate().apply{
                 duration = 1000
                 rotationX(360f)
+            }
 
-            }//GantiActivity
-            val intent = Intent(this,Mainpage::class.java)
-            startActivity(intent)
+            // Ganti Activity
+            startActivity(Intent(this, ChatList::class.java))
             finish()
         }
 
